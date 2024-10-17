@@ -1,6 +1,6 @@
 # :credit_card: Paystack Plugin for Flutter
 
-[![build status](https://img.shields.io/github/actions/workflow/status/DeTuksa/flutter_paystack_tk/main.yml?branch=dev)](https://github.com/DeTuksa/flutter_paystack_tk/actions?query=Build+and+test)
+[![build status](https://img.shields.io/github/actions/workflow/status/DeTuksa/flutter_paystack_tk/main.yml?branch=master)](https://github.com/DeTuksa/flutter_paystack_tk/actions?query=Build+and+test)
 [![Coverage Status](https://coveralls.io/repos/github/DeTuksa/flutter_paystack_tk/badge.svg?branch=master)](https://coveralls.io/github/DeTuksa/flutter_paystack_tk)
 [![pub package](https://img.shields.io/pub/v/flutter_paystack_tk.svg)](https://pub.dev/packages/flutter_paystack_tk)
 
@@ -16,12 +16,12 @@ supports Android and iOS. Forked from [Wilburx9](https://github.com/wilburx9/flu
 and now maintained by me.
 
 ## :rocket: Installation
-To use this plugin, add `flutter_paystack_tk` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `flutter_paystack` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 Then initialize the plugin preferably in the `initState` of your widget.
 
 ``` dart
-import 'package:flutter_paystack_tk/flutter_paystack_tk.dart';
+import 'package:flutter_paystack_tk/flutter_paystack.dart';
 
 class _PaymentPageState extends State<PaymentPage> {
   var publicKey = '[YOUR_PAYSTACK_PUBLIC_KEY]';

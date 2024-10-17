@@ -1,7 +1,7 @@
 # :credit_card: Paystack Plugin for Flutter
 
 [![build status](https://img.shields.io/github/workflow/status/DeTuksa/flutter_paystack/Build%20and%20Test)](https://github.com/DeTuksa/flutter_paystack/actions?query=Build+and+test)
-[![Coverage Status](https://coveralls.io/repos/github/wilburt/flutter_paystack/badge.svg?branch=master)](https://coveralls.io/github/wilburt/flutter_paystack?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/DeTuksa/flutter_paystack/badge.svg?branch=master)](https://coveralls.io/github/DeTuksa/flutter_paystack?branch=master)
 [![pub package](https://img.shields.io/pub/v/flutter_paystack.svg)](https://pub.dartlang.org/packages/flutter_paystack)
 
 
@@ -21,7 +21,7 @@ To use this plugin, add `flutter_paystack` as a [dependency in your pubspec.yaml
 Then initialize the plugin preferably in the `initState` of your widget.
 
 ``` dart
-import 'package:flutter_paystack/flutter_paystack.dart';
+import 'package:flutter_paystack_tk/flutter_paystack.dart';
 
 class _PaymentPageState extends State<PaymentPage> {
   var publicKey = '[YOUR_PAYSTACK_PUBLIC_KEY]';
@@ -173,7 +173,7 @@ Clone this repo and navigate to the **example** folder. Open it with a supported
 
 ## :pencil: Contributing, :disappointed: Issues and :bug: Bug Reports
 The project is open to public contribution. Please feel very free to contribute.
-Experienced an issue or want to report a bug? Please, [report it here](https://github.com/wilburt/flutter_paystack/issues). Remember to be as descriptive as possible.
+Experienced an issue or want to report a bug? Please, [report it here](https://github.com/DeTuksa/flutter_paystack/issues). Remember to be as descriptive as possible.
 
 ## :trophy: Credits
 Thanks to the authors of Paystack [iOS](https://github.com/PaystackHQ/paystack-ios) and [Android](https://github.com/PaystackHQ/paystack-android) SDKS. I leveraged on their work to bring this plugin to fruition.

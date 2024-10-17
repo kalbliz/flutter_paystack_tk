@@ -120,14 +120,14 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
                 child: Image.asset(
                   'assets/images/paystack_icon.png',
                   key: Key("PaystackBottomIcon"),
-                  package: 'flutter_paystack',
+                  package: 'flutter_paystack_tk',
                   height: 16,
                 ),
               ),
             Image.asset(
               'assets/images/paystack.png',
               key: Key("PaystackLogo"),
-              package: 'flutter_paystack',
+              package: 'flutter_paystack_tk',
               height: 15,
             )
           ],
@@ -217,7 +217,7 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
                 Image.asset(
                   'assets/images/paystack_icon.png',
                   key: Key("PaystackIcon"),
-                  package: 'flutter_paystack',
+                  package: 'flutter_paystack_tk',
                   width: 25,
                 )
               else
@@ -242,13 +242,13 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
       duration: const Duration(milliseconds: 300),
       curve: Curves.fastOutSlowIn,
       child: new Container(
-        color: context.colorScheme().background.withOpacity(0.5),
+        color: context.colorScheme().surface.withOpacity(0.5),
         height: _tabHeight,
         alignment: Alignment.center,
         child: new TabBar(
           controller: _tabController,
           isScrollable: true,
-          unselectedLabelColor: context.colorScheme().onBackground,
+          unselectedLabelColor: context.colorScheme().onSurface,
           labelColor: accentColor,
           labelStyle:
               new TextStyle(fontSize: 14.0, fontWeight: FontWeight.w500),

@@ -80,7 +80,7 @@ class _SuccessfulWidgetState extends State<SuccessfulWidget>
               'assets/images/successful.png',
               color: sceondaryColor,
               width: 50.0,
-              package: 'flutter_paystack',
+              package: 'flutter_paystack_tk',
             ),
             sizedBox,
             Text(

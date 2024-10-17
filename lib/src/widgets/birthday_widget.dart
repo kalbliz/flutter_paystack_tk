@@ -38,7 +38,7 @@ class _BirthdayWidgetState extends BaseState<BirthdayWidget> {
         child: new Column(
           children: <Widget>[
             new Image.asset('assets/images/dob.png',
-                width: 30.0, package: 'flutter_paystack'),
+                width: 30.0, package: 'flutter_paystack_tk'),
             _heightBox,
             new Text(
               widget.message,

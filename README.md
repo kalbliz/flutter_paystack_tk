@@ -1,8 +1,8 @@
 # :credit_card: Paystack Plugin for Flutter
 
-[![build status](https://img.shields.io/github/workflow/status/DeTuksa/flutter_paystack/Build%20and%20Test)](https://github.com/DeTuksa/flutter_paystack/actions?query=Build+and+test)
-[![Coverage Status](https://coveralls.io/repos/github/DeTuksa/flutter_paystack/badge.svg?branch=master)](https://coveralls.io/github/DeTuksa/flutter_paystack?branch=master)
-[![pub package](https://img.shields.io/pub/v/flutter_paystack.svg)](https://pub.dev/packages/flutter_paystack_tk)
+[![build status](https://img.shields.io/github/workflow/status/DeTuksa/flutter_paystack_tk/Build%20and%20Test)](https://github.com/DeTuksa/flutter_paystack_tk/actions?query=Build+and+test)
+[![Coverage Status](https://coveralls.io/repos/github/DeTuksa/flutter_paystack_tk/badge.svg?branch=master)](https://coveralls.io/github/DeTuksa/flutter_paystack_tk?branch=master)
+[![pub package](https://img.shields.io/pub/v/flutter_paystack_tk.svg)](https://pub.dev/packages/flutter_paystack_tk)
 
 
 <p>

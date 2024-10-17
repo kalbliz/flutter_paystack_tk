@@ -168,7 +168,7 @@ class _CardInputState extends State<CardInput> {
         key: Key("IssuerIcon"),
         height: 15,
         width: 30,
-        package: 'flutter_paystack',
+        package: 'flutter_paystack_tk',
       );
     } else {
       widget = defaultIcon;

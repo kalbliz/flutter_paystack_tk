@@ -1,4 +1,4 @@
-package co.paystack.flutterpaystack
+package tk.paystack.flutterpaystack
 
 import android.app.Activity
 import android.content.Intent

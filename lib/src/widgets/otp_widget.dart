@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_paystack/src/widgets/base_widget.dart';
-import 'package:flutter_paystack/src/widgets/common/extensions.dart';
-import 'package:flutter_paystack/src/widgets/custom_dialog.dart';
-import 'package:flutter_paystack/src/widgets/input/otp_field.dart';
+import 'package:flutter_paystack_tk/src/widgets/base_widget.dart';
+import 'package:flutter_paystack_tk/src/widgets/common/extensions.dart';
+import 'package:flutter_paystack_tk/src/widgets/custom_dialog.dart';
+import 'package:flutter_paystack_tk/src/widgets/input/otp_field.dart';
 
 import 'buttons.dart';
 

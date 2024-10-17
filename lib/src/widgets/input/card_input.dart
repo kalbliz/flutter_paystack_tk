@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_paystack/src/common/card_utils.dart';
-import 'package:flutter_paystack/src/common/utils.dart';
-import 'package:flutter_paystack/src/models/card.dart';
-import 'package:flutter_paystack/src/widgets/buttons.dart';
-import 'package:flutter_paystack/src/widgets/input/cvc_field.dart';
-import 'package:flutter_paystack/src/widgets/input/date_field.dart';
-import 'package:flutter_paystack/src/widgets/input/number_field.dart';
+import 'package:flutter_paystack_tk/src/common/card_utils.dart';
+import 'package:flutter_paystack_tk/src/common/utils.dart';
+import 'package:flutter_paystack_tk/src/models/card.dart';
+import 'package:flutter_paystack_tk/src/widgets/buttons.dart';
+import 'package:flutter_paystack_tk/src/widgets/input/cvc_field.dart';
+import 'package:flutter_paystack_tk/src/widgets/input/date_field.dart';
+import 'package:flutter_paystack_tk/src/widgets/input/number_field.dart';
 
 class CardInput extends StatefulWidget {
   final String buttonText;

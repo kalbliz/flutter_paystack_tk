@@ -1,4 +1,4 @@
-package co.paystack.flutterpaystack
+package tk.paystack.flutterpaystack
 
 import android.annotation.SuppressLint
 import android.app.Activity

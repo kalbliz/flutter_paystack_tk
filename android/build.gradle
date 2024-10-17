@@ -1,4 +1,4 @@
-group 'co.paystack.flutterpaystack'
+group 'tk.paystack.flutterpaystack'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 35
-    namespace "co.paystack.flutterpaystack"
+    namespace "tk.paystack.flutterpaystack"
 
     compileOptions {
         coreLibraryDesugaringEnabled true

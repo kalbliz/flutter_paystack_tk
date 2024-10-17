@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:flutter_paystack/src/common/exceptions.dart';
-import 'package:flutter_paystack/src/common/my_strings.dart';
-import 'package:flutter_paystack/src/models/bank.dart';
-import 'package:flutter_paystack/src/models/card.dart';
+import 'package:flutter_paystack_tk/src/common/exceptions.dart';
+import 'package:flutter_paystack_tk/src/common/my_strings.dart';
+import 'package:flutter_paystack_tk/src/models/bank.dart';
+import 'package:flutter_paystack_tk/src/models/card.dart';
 
 class Charge {
   PaymentCard? card;

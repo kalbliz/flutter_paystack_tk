@@ -1,11 +1,11 @@
 import 'package:flutter/services.dart';
-import 'package:flutter_paystack/src/common/my_strings.dart';
-import 'package:flutter_paystack/src/common/utils.dart';
+import 'package:flutter_paystack_tk/src/common/my_strings.dart';
+import 'package:flutter_paystack_tk/src/common/utils.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   const MethodChannel channel =
-      MethodChannel('plugins.wilburt/flutter_paystack');
+      MethodChannel('plugins.detuksa/flutter_paystack_tk');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

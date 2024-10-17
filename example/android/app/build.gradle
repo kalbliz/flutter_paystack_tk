@@ -14,7 +14,7 @@ if (localPropertiesFile.exists()) {
 
 android {
     compileSdkVersion 35
-    namespace "co.paystack.flutterpaystackexample"
+    namespace "tk.paystack.flutterpaystackexample"
 
     compileOptions {
         coreLibraryDesugaringEnabled true
@@ -32,7 +32,7 @@ android {
 
 
     defaultConfig {
-        applicationId "co.paystack.flutterpaystack"
+        applicationId "tk.paystack.flutterpaystack"
         multiDexEnabled true
         minSdkVersion flutter.minSdkVersion
         targetSdkVersion 35

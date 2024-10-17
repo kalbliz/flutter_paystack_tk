@@ -1,4 +1,4 @@
-package co.paystack.flutterpaystack
+package tk.paystack.flutterpaystack
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -45,4 +45,4 @@ class MethodCallHandlerImpl(messenger: BinaryMessenger, private val activity: Ac
     }
 }
 
-private const val channelName = "plugins.wilburt/flutter_paystack"
+private const val channelName = "plugins.detuksa/flutter_paystack_tk"

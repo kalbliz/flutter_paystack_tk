@@ -1,4 +1,4 @@
-package co.paystack.flutterpaystack
+package tk.paystack.flutterpaystack
 
 /**
  * Created by Wilberforce on 29/07/18 at 06:00.

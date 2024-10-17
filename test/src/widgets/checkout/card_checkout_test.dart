@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_paystack_tk/flutter_paystack.dart';
+import 'package:flutter_paystack_tk/flutter_paystack_tk.dart';
 import 'package:flutter_paystack_tk/src/api/service/contracts/cards_service_contract.dart';
 import 'package:flutter_paystack_tk/src/common/utils.dart';
 import 'package:flutter_paystack_tk/src/widgets/checkout/card_checkout.dart';

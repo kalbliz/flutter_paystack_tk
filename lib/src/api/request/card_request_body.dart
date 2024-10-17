@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:flutter_paystack_tk/flutter_paystack.dart';
+import 'package:flutter_paystack_tk/flutter_paystack_tk.dart';
 import 'package:flutter_paystack_tk/src/api/request/base_request_body.dart';
 import 'package:flutter_paystack_tk/src/common/card_utils.dart';
 import 'package:flutter_paystack_tk/src/common/crypto.dart';

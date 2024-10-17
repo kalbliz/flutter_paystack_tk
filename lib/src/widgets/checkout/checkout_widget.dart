@@ -120,14 +120,14 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
                 child: Image.asset(
                   'assets/images/paystack_icon.png',
                   key: Key("PaystackBottomIcon"),
-                  package: 'flutter_paystack',
+                  package: 'flutter_paystack_tk',
                   height: 16,
                 ),
               ),
             Image.asset(
               'assets/images/paystack.png',
               key: Key("PaystackLogo"),
-              package: 'flutter_paystack',
+              package: 'flutter_paystack_tk',
               height: 15,
             )
           ],
@@ -217,7 +217,7 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
                 Image.asset(
                   'assets/images/paystack_icon.png',
                   key: Key("PaystackIcon"),
-                  package: 'flutter_paystack',
+                  package: 'flutter_paystack_tk',
                   width: 25,
                 )
               else
